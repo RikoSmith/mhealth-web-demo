@@ -5,7 +5,7 @@ import axios from "axios";
 var base64 = require("file-base64");
 
 const instance = axios.create({
-  baseURL: "https://159.89.13.182:5000"
+  baseURL: "http://159.89.13.182:5000"
 });
 
 class App extends Component {
